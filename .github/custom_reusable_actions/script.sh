@@ -1,4 +1,3 @@
 
-echo "this is from the resuable action script"
+echo "this is from the resuable action script $1"
 ls -la
-cat random.txt
