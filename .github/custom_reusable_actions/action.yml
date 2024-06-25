@@ -25,5 +25,5 @@ runs:
     shell: bash
 
   - name: call make
-    run: make process_input ${{ github.action_path }}
-    shell: bash
+    run: make process_input INPUT_VALUE=${{ github.action_path }}
+    shell: sh
